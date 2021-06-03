@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/appointments.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Book Your Appointment!</h1>
+    <form id="book-appointment">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="type">Appointment Type</label>
+        <input type="text" class="form-control" id="type">
+      </div>
+      <div class="form-group">
+        <label for="date">Appointment Date</label>
+        <input type="text" class="form-control" id="date">
+      </div>
+      <div class="form-group">
+        <label for="time">Appointment Time</label>
+        <input type="text" class="form-control" id="time">
+      </div>
+      <button type="submit" class="btn-primary">Book Now!</button>
+    </form>
+    <div id="output">
+    </div>
+  </div>
+</body>
+
+</html>
